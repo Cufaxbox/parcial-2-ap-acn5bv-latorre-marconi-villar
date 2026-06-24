@@ -66,4 +66,90 @@ Los resultados esperados son:
 * Validar técnicamente la viabilidad de integrar el módulo de reservas dentro del ecosistema general de MesaFlow.
 * Obtener una base funcional que pueda evolucionar en futuras versiones incorporando nuevas funcionalidades y mejoras operativas.
 
+# 6. Análisis de Stakeholders
+
+## 6.1 Identificación de Stakeholders
+
+Los stakeholders son las personas o grupos que pueden influir o verse afectados por el desarrollo del módulo de reservas de MesaFlow.
+
+La identificación de los interesados se realizó a partir del relevamiento efectuado en Cervecería DobleSentido, establecimiento utilizado como caso de estudio para la validación inicial del proyecto. Durante esta etapa se analizaron los distintos actores que intervienen en el proceso de reservas y su relación con las necesidades operativas detectadas.
+
+Si bien MesaFlow está concebido como una plataforma SaaS orientada a múltiples establecimientos gastronómicos, los stakeholders identificados en esta sección surgen del análisis realizado sobre dicho establecimiento y constituyen la base para el diseño inicial del módulo de reservas.
+
+Para este proyecto se identificaron los siguientes interesados principales:
+
+### Cliente
+
+Cantidad estimada: Múltiples usuarios.
+
+Utilizan el módulo para consultar disponibilidad y realizar reservas de manera digital.
+
+### Administrador del establecimiento
+
+Cantidad estimada: 1 usuario por establecimiento.
+
+Responsable de gestionar mesas, reservas, horarios y configuraciones operativas del sistema. Además, participa activamente en la validación de los requerimientos funcionales y necesidades del negocio.
+
+### Empleados del establecimiento
+
+Cantidad estimada: Variable según el establecimiento.
+
+Personal que desarrolla sus tareas diarias dentro del establecimiento, como mozos, cocineros y personal de atención. Aportan información sobre la operatoria del negocio y los procesos relacionados con las reservas.
+
+### Equipo de desarrollo
+
+Cantidad estimada: 3 integrantes.
+
+Responsable del análisis, diseño, implementación y validación técnica del módulo de reservas.
+
+---
+
+## 6.2 Análisis de Interesados
+
+Cada stakeholder posee distintos niveles de interés e influencia sobre el proyecto.
+
+| Stakeholder                       | Nivel de interés | Nivel de influencia |
+| --------------------------------- | ---------------- | ------------------- |
+| Cliente                           | Alta             | Media               |
+| Administrador del establecimiento | Muy alta         | Alta                |
+| Empleados del establecimiento     | Media            | Baja                |
+| Equipo de desarrollo              | Alta             | Alta                |
+
+El administrador del establecimiento presenta el mayor nivel de interés e influencia debido a que participa en la definición de reglas operativas, políticas de reserva y validación de funcionalidades. Por su parte, el equipo de desarrollo posee una alta influencia sobre el proyecto al ser responsable de transformar los requerimientos en una solución tecnológica funcional.
+
+---
+
+## 6.3 Influencia e Impacto
+
+Se realizó una evaluación cualitativa de la influencia e impacto de cada stakeholder sobre el proyecto.
+
+### Cliente
+
+Influencia: Media.
+
+Impacto: Permite validar la experiencia de uso y el proceso de reserva desde la perspectiva del usuario final.
+
+### Administrador del establecimiento
+
+Influencia: Alta.
+
+Impacto: Define requerimientos funcionales, reglas operativas y valida el correcto funcionamiento del módulo de reservas.
+
+### Empleados del establecimiento
+
+Influencia: Baja.
+
+Impacto: Aportan información sobre los procesos operativos y la dinámica diaria del establecimiento.
+
+### Equipo de desarrollo
+
+Influencia: Alta.
+
+Impacto: Responsable de implementar la solución tecnológica y garantizar el cumplimiento de los requerimientos definidos.
+
+### Conclusión
+
+A partir de este análisis se determinó que el Administrador del establecimiento y el Equipo de Desarrollo representan los stakeholders con mayor influencia sobre el proyecto. El primero participa en la definición y validación de los requerimientos funcionales, mientras que el segundo es responsable de implementar la solución tecnológica.
+
+Por su parte, los Clientes y Empleados del establecimiento aportan información relevante para validar la experiencia de uso y la operatoria diaria del negocio.
 
