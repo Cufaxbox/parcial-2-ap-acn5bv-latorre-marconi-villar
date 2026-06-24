@@ -153,3 +153,76 @@ A partir de este análisis se determinó que el Administrador del establecimient
 
 Por su parte, los Clientes y Empleados del establecimiento aportan información relevante para validar la experiencia de uso y la operatoria diaria del negocio.
 
+# 7. Metodología de Trabajo
+
+## 7.1 Metodología Seleccionada
+
+Para el desarrollo del módulo de reservas de MesaFlow se adoptó la metodología ágil Scrum. Esta metodología permite organizar el trabajo de manera iterativa e incremental, facilitando la adaptación a cambios en los requerimientos y promoviendo la entrega continua de valor durante el proyecto.
+
+La elección de Scrum se fundamenta en la necesidad de validar funcionalidades de forma temprana, incorporar retroalimentación obtenida durante el relevamiento y gestionar posibles cambios surgidos durante el desarrollo.
+
+Asimismo, la metodología resulta especialmente adecuada para el proyecto debido a que permite incorporar de manera ordenada las observaciones surgidas durante las validaciones funcionales realizadas con el establecimiento de referencia, favoreciendo una evolución continua del producto y una mejor adaptación a los cambios de requerimientos.
+
+---
+
+## 7.2 Roles y Responsabilidades
+
+Debido al tamaño reducido del equipo, los integrantes desempeñan distintos roles dentro de la metodología Scrum sin dejar de participar activamente en las tareas de análisis, desarrollo y validación del proyecto.
+
+### Scrum Master – Facundo Villar
+
+Responsable de coordinar las actividades del proyecto, realizar el seguimiento de tareas, facilitar la comunicación entre los integrantes y asegurar la correcta aplicación de la metodología de trabajo.
+
+Además, participa en el análisis funcional, diseño técnico y desarrollo de las funcionalidades del módulo de reservas.
+
+### Product Owner – Javier Latorre
+
+Responsable de representar las necesidades del negocio, validar requerimientos funcionales y colaborar en la definición de las reglas operativas del módulo de reservas.
+
+Asimismo, participa en el relevamiento, análisis, desarrollo y validación de funcionalidades asociadas al proyecto.
+
+### Equipo de Desarrollo
+
+El equipo de desarrollo está conformado por Facundo Villar, Facundo Marconi y Javier Latorre.
+
+Los integrantes participan en distintas actividades relacionadas con el análisis, diseño, implementación, pruebas y validación de las funcionalidades del módulo de reservas, aportando conocimientos técnicos y funcionales según su área de experiencia.
+
+Si bien cada integrante posee responsabilidades específicas dentro del proyecto, el desarrollo de las funcionalidades se realiza de manera colaborativa, favoreciendo el intercambio de conocimientos y la participación activa en las distintas etapas del ciclo de desarrollo.
+
+---
+
+## 7.3 Ceremonias Scrum
+
+Para el seguimiento del proyecto se definieron las siguientes ceremonias:
+
+### Sprint Planning
+
+Reunión destinada a planificar las tareas a desarrollar durante cada iteración de trabajo, definiendo objetivos, prioridades y alcance de las actividades a realizar.
+
+### Daily Meeting
+
+Encuentro breve destinado a revisar avances, identificar impedimentos y coordinar actividades entre los integrantes.
+
+Debido a las características del proyecto y al tamaño reducido del equipo, estas reuniones se realizan de forma semanal o cuando la complejidad de las tareas requiere una coordinación adicional entre los integrantes.
+
+### Sprint Review
+
+Instancia de revisión de las funcionalidades desarrolladas y validación de los resultados obtenidos respecto de los objetivos definidos para cada iteración.
+
+### Sprint Retrospective
+
+Reunión orientada a identificar oportunidades de mejora en el proceso de trabajo, analizar dificultades encontradas y definir acciones correctivas para futuras iteraciones.
+
+---
+
+## 7.4 Herramientas Utilizadas
+
+Para la gestión, desarrollo y seguimiento del proyecto se utilizarán las siguientes herramientas:
+
+* GitHub para control de versiones y trazabilidad de cambios.
+* Jira para la gestión del backlog, planificación y seguimiento de tareas.
+* Spring Boot para el desarrollo del backend.
+* MySQL para pruebas locales de base de datos.
+* Azure SQL Database como entorno objetivo para persistencia de datos.
+* Draw.io para la elaboración de diagramas y documentación técnica.
+* Visual Studio Code e IntelliJ IDEA como entornos de desarrollo.
