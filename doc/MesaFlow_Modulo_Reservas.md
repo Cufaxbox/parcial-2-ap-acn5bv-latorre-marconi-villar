@@ -226,3 +226,58 @@ Para la gestión, desarrollo y seguimiento del proyecto se utilizarán las sigui
 * Azure SQL Database como entorno objetivo para persistencia de datos.
 * Draw.io para la elaboración de diagramas y documentación técnica.
 * Visual Studio Code e IntelliJ IDEA como entornos de desarrollo.
+
+# 8. Análisis de Requerimientos
+
+## 8.1 Relevamiento de Requerimientos
+
+Los requerimientos del módulo de reservas fueron obtenidos a partir del relevamiento realizado en Cervecería DobleSentido y posteriormente refinados mediante reuniones de análisis realizadas por el equipo de trabajo.
+
+Para documentar y mantener la trazabilidad de los requerimientos se utilizaron distintos artefactos de análisis, incluyendo Historias de Usuario (HU), Requerimientos Funcionales (RF) y Casos de Uso (CU).
+
+Estos elementos permiten vincular las necesidades identificadas durante el relevamiento con las funcionalidades que serán implementadas durante el desarrollo del proyecto.
+
+---
+
+## 8.2 Historias de Usuario Principales
+
+A partir del análisis realizado se identificaron las siguientes historias de usuario como parte del alcance inicial del módulo de reservas.
+
+| ID     | Actor         | Descripción                                      | Prioridad |
+| ------ | ------------- | ------------------------------------------------ | --------- |
+| HU-012 | Cliente       | Consultar disponibilidad y realizar una reserva. | Highest   |
+| HU-013 | Cliente       | Modificar o cancelar una reserva existente.      | High      |
+| HU-014 | Administrador | Gestionar las reservas del establecimiento.      | Highest   |
+
+Las historias de usuario representan las funcionalidades principales necesarias para permitir la consulta, creación, modificación y administración de reservas dentro del establecimiento.
+
+---
+
+## 8.3 Trazabilidad de Requerimientos
+
+Con el objetivo de asegurar la trazabilidad entre las necesidades identificadas y las funcionalidades implementadas, se estableció la siguiente relación entre Historias de Usuario, Requerimientos Funcionales y Casos de Uso.
+
+| Historia de Usuario | Requerimientos Funcionales | Casos de Uso   |
+| ------------------- | -------------------------- | -------------- |
+| HU-012              | RF-012, RF-013             | CU-010, CU-011 |
+| HU-013              | RF-014, RF-015             | CU-011         |
+| HU-014              | RF-016                     | CU-012         |
+
+La utilización de esta matriz de trazabilidad permite verificar que cada requerimiento funcional se encuentra asociado a una necesidad de negocio y a uno o más casos de uso que describen su comportamiento dentro del sistema.
+
+---
+
+## 8.4 Documentación Complementaria
+
+El detalle completo de las historias de usuario, requerimientos funcionales, criterios de aceptación y casos de uso se encuentra documentado en el archivo:
+
+**Analisis_Requerimientos_Reservas_MesaFlow.xlsx**
+
+Asimismo, como complemento al análisis realizado, se desarrollaron diagramas de casos de uso específicos para el módulo de reservas:
+
+* Reservas – Cliente: incluye los casos de uso CU-010 y CU-011.
+* Reservas – Administrador: incluye el caso de uso CU-012.
+
+Estos permiten complementar la especificación funcional y visualizar la interacción de los distintos actores con el sistema.
+
+La información obtenida durante esta etapa servirá como base para la construcción del backlog y la posterior planificación de tareas dentro del tablero de seguimiento del proyecto.
