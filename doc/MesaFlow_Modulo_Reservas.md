@@ -281,3 +281,91 @@ Asimismo, como complemento al análisis realizado, se desarrollaron diagramas de
 Estos permiten complementar la especificación funcional y visualizar la interacción de los distintos actores con el sistema.
 
 La información obtenida durante esta etapa servirá como base para la construcción del backlog y la posterior planificación de tareas dentro del tablero de seguimiento del proyecto.
+
+# 9. Tablero de Seguimiento
+
+Para realizar el seguimiento del desarrollo del módulo de reservas se utilizó **Jira**, dentro del proyecto general **MesaFlow**.
+
+El tablero fue configurado para organizar las tareas del proyecto mediante épicas, sprints, responsables, prioridades, estimaciones y estados de avance. De esta forma, Jira permite visualizar la planificación del trabajo, el avance de cada actividad y la distribución de responsabilidades entre los integrantes del equipo.
+
+## 9.1 Integrantes del tablero
+
+Se incorporaron al tablero los integrantes del equipo de trabajo:
+
+* Facundo Villar
+* Facundo Marconi
+* Javier Latorre
+
+Asimismo, se invitó al docente:
+
+sergiod.medina@davinci.edu.ar
+
+El tablero fue compartido con todos los integrantes del proyecto y con el docente para permitir su revisión durante la evaluación. El enlace correspondiente se incluye a continuación.
+
+## 9.2 Organización del tablero
+
+El tablero se organizó utilizando las épicas previamente definidas para el proyecto MesaFlow. Para esta simulación se refinaron principalmente las tareas relacionadas con el módulo de reservas.
+
+Las épicas utilizadas fueron:
+
+* EP-01 Gestión del Proyecto
+* EP-03 Análisis y Diseño
+* EP-05 Backend
+* EP-06 Frontend Web
+* EP-07 Mobile
+* EP-08 Testing
+* EP-09 Documentación
+
+Las tareas fueron asignadas a los integrantes correspondientes, incorporando prioridades, fechas planificadas y estimaciones mediante Story Points.
+
+## 9.3 Flujo de trabajo
+
+El tablero utiliza un flujo simple de seguimiento:
+
+* Pendiente
+* In Review
+* Done
+
+Este flujo permite representar el estado de avance de cada item durante la simulación del desarrollo.
+
+## 9.4 Sprints y Milestones
+
+Para organizar el seguimiento se definieron tres Sprints. Cada Sprint fue asociado a un hito principal del proyecto, funcionando como referencia para los Milestones solicitados en la consigna.
+
+### Sprint 1 - Planificación y Análisis
+
+**Milestone asociado:** Milestone 1 - Planificación del módulo de reservas.
+
+**Objetivo:** Definir las bases del módulo, sus interesados, la metodología de trabajo y los requerimientos principales.
+
+Este Sprint incluye items relacionados con la definición del objetivo SMART, análisis de stakeholders, metodología Scrum, análisis de requerimientos y gestión inicial de riesgos.
+
+### Sprint 2 - Desarrollo
+
+**Milestone asociado:** Milestone 2 - Desarrollo del módulo de reservas.
+
+**Objetivo:** Implementar las funcionalidades principales del módulo de reservas.
+
+Este Sprint incluye items relacionados con la consulta de disponibilidad, registro de reservas, modificación y cancelación de reservas, gestión administrativa, desarrollo del panel web e implementación de funcionalidades mobile.
+
+### Sprint 3 - Validación y Cierre
+
+**Milestone asociado:** Milestone 3 - Validación del módulo de reservas.
+
+**Objetivo:** Validar el funcionamiento del módulo, corregir incidencias y consolidar la documentación.
+
+Este Sprint incluye items relacionados con la validación funcional, pruebas de integración, corrección de incidencias, actualización de documentación técnica y consolidación de evidencias del desarrollo.
+
+Cada Sprint contiene al menos cuatro items o tarjetas asociadas, cumpliendo con la organización solicitada para los Milestones. En el tablero Jira, los items pueden visualizarse filtrando por Sprint.
+
+## 9.5 Enlace al tablero
+
+El tablero de seguimiento se encuentra disponible en el siguiente enlace:
+
+https://mesaflow.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiODNkMjI2YWEzMTY5NDc2Nzk4NTQxNzg0ZjdiZDUzZDMiLCJwIjoiaiJ9
+
+## 9.6 Relación con la documentación y el versionado
+
+La creación y configuración del tablero permite vincular la planificación realizada en la documentación con el seguimiento de las actividades en Jira.
+
+A partir de esta versión, las tareas del tablero sirven como base para continuar con la simulación del desarrollo, la gestión de riesgos, la actualización de documentación y los futuros cambios de versión del proyecto.
