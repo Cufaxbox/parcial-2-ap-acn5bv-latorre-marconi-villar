@@ -369,3 +369,149 @@ https://mesaflow.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=e
 La creación y configuración del tablero permite vincular la planificación realizada en la documentación con el seguimiento de las actividades en Jira.
 
 A partir de esta versión, las tareas del tablero sirven como base para continuar con la simulación del desarrollo, la gestión de riesgos, la actualización de documentación y los futuros cambios de versión del proyecto.
+
+# 10. Gestión de Riesgos y Contingencias
+
+## 10.1 Introducción
+
+Durante la planificación del módulo de reservas de MesaFlow se realizó un análisis de riesgos con el objetivo de identificar posibles eventos que pudieran afectar el alcance, los tiempos, la calidad del producto o la disponibilidad de recursos del proyecto.
+
+El análisis de riesgos permite anticipar situaciones que podrían impactar negativamente en el desarrollo del módulo y definir acciones preventivas o correctivas. Para este proyecto se consideraron riesgos relacionados con la gestión del proyecto, el producto desarrollado y el contexto operativo del establecimiento gastronómico tomado como referencia.
+
+La gestión de riesgos se incorpora como parte de la planificación del proyecto y será revisada durante el avance de los Sprints, especialmente ante cambios funcionales o técnicos que puedan modificar el alcance inicialmente definido.
+
+---
+
+## 10.2 Metodología de evaluación de riesgos
+
+Para la gestión de riesgos del proyecto se adoptó una metodología basada en la identificación, evaluación y seguimiento de los principales riesgos asociados al desarrollo del módulo de reservas.
+
+Cada riesgo fue analizado considerando dos variables principales:
+
+- **Probabilidad:** posibilidad de que el riesgo ocurra durante el desarrollo del proyecto.
+- **Impacto:** nivel de afectación que tendría sobre el alcance, el cronograma, la calidad o el funcionamiento del sistema.
+
+A partir de estas variables se determinó el nivel de riesgo de cada situación identificada, permitiendo establecer prioridades para la definición de acciones preventivas y planes de contingencia.
+
+Para facilitar la evaluación se utilizó una escala cualitativa de tres niveles tanto para la probabilidad como para el impacto:
+
+- **Bajo:** baja posibilidad de ocurrencia o consecuencias menores sobre el proyecto.
+- **Medio:** posibilidad moderada de ocurrencia o impacto que requiere seguimiento.
+- **Alto:** alta probabilidad de ocurrencia o consecuencias significativas que pueden afectar el desarrollo del proyecto.
+
+El nivel de riesgo se obtuvo combinando la probabilidad y el impacto de cada situación identificada. Aquellos riesgos con alta probabilidad y alto impacto fueron considerados prioritarios y requieren acciones preventivas y planes de contingencia específicos. Los riesgos de nivel medio requieren seguimiento periódico, mientras que los riesgos de nivel bajo serán monitoreados durante el desarrollo del proyecto.
+
+La siguiente matriz resume el criterio utilizado para determinar el nivel de riesgo de cada situación identificada.
+
+| **Probabilidad \\ Impacto** | **Bajo** | **Medio** | **Alto** |
+|-----------------------------|:--------:|:---------:|:--------:|
+| **Alta**                    | Medio    | Alto      | Alto     |
+| **Media**                   | Bajo     | Medio     | Alto     |
+| **Baja**                    | Bajo     | Bajo      | Medio    |
+
+---
+
+## 10.3 Identificación y clasificación de riesgos
+
+Durante la planificación del módulo de reservas se identificaron los principales riesgos que podrían afectar el desarrollo del proyecto. Para su definición se consideraron las características funcionales y técnicas del sistema, la experiencia obtenida durante el análisis y diseño del módulo, y situaciones habituales que pueden presentarse en proyectos de desarrollo de software con características similares.
+
+La identificación de riesgos contempló aspectos relacionados con la gestión del proyecto, la evolución de los requerimientos funcionales, el desarrollo e integración de los distintos componentes del sistema y el proceso de validación de las funcionalidades implementadas.
+
+Con el objetivo de facilitar su análisis y posterior tratamiento, los riesgos identificados fueron clasificados según su naturaleza. Para este proyecto se definieron las siguientes categorías:
+
+- **Riesgos de gestión:** relacionados con la planificación, organización del trabajo y disponibilidad de los integrantes del equipo.
+- **Riesgos funcionales:** asociados a cambios en los requerimientos o en las reglas de negocio del módulo de reservas.
+- **Riesgos técnicos:** vinculados con la arquitectura del sistema, el desarrollo, la integración entre componentes, el modelo de datos y la utilización de servicios externos necesarios para el funcionamiento de la aplicación.
+- **Riesgos de calidad:** relacionados con el proceso de pruebas, validación y correcto funcionamiento del módulo implementado.
+
+Esta clasificación permitió organizar los riesgos identificados y establecer posteriormente las estrategias de mitigación y los planes de contingencia correspondientes.
+
+---
+
+## 10.4 Matriz de riesgos
+
+Aplicando la metodología de evaluación definida en el apartado anterior, se analizaron los riesgos identificados durante la planificación del módulo de reservas considerando su probabilidad de ocurrencia y el impacto potencial que podrían generar sobre el proyecto.
+
+La siguiente matriz resume el resultado de dicho análisis y permite establecer el nivel de riesgo asociado a cada situación identificada, facilitando la priorización de las acciones de mitigación y los planes de contingencia.
+
+| Riesgo                                                           | Probabilidad | Impacto |   Nivel   |
+| ---------------------------------------------------------------- | :----------: | :-----: | :-------: |
+| Disponibilidad de los integrantes del equipo                     |     Media    |  Media  | **Medio** |
+| Cambios en los requerimientos funcionales del módulo de reservas |     Alta     |   Alta  |  **Alto** |
+| Cambios en las reglas de negocio del establecimiento             |     Media    |  Media  | **Medio** |
+| Consistencia del modelo de datos y reglas de negocio             |     Baja     |   Alta  | **Medio** |
+| Integración entre Backend, Frontend Web y aplicación Mobile      |     Media    |  Media  | **Medio** |
+| Dependencia de servicios externos e infraestructura tecnológica  |     Baja     |  Media  |  **Bajo** |
+| Cobertura insuficiente de pruebas funcionales e integración      |     Media    |  Media  | **Medio** |
+
+---
+
+## 10.5 Estrategias de mitigación y planes de contingencia
+
+Con el objetivo de reducir la probabilidad de ocurrencia de los riesgos identificados y minimizar su impacto sobre el proyecto, se definieron estrategias de mitigación y planes de contingencia para cada uno de ellos.
+
+Las estrategias de mitigación buscan prevenir o disminuir la posibilidad de que un riesgo se materialice, mientras que los planes de contingencia establecen las acciones previstas para reducir sus efectos en caso de que el riesgo ocurra.
+
+### Disponibilidad de los integrantes del equipo
+
+**Mitigación:** Distribuir las tareas entre los integrantes, mantener la documentación actualizada y realizar reuniones periódicas de seguimiento.
+
+**Contingencia:** Reasignar las tareas críticas, actualizar la planificación del Sprint y redistribuir la carga de trabajo entre los miembros disponibles.
+
+---
+
+### Cambios en los requerimientos funcionales
+
+**Mitigación:** Validar los requerimientos con el establecimiento antes del inicio de cada Sprint y mantener la trazabilidad entre historias de usuario, requerimientos funcionales y casos de uso.
+
+**Contingencia:** Analizar el impacto del cambio, actualizar la documentación, reestimar las tareas afectadas y ajustar la planificación del Sprint.
+
+---
+
+### Cambios en las reglas de negocio del establecimiento
+
+**Mitigación:** Diseñar el sistema con parámetros configurables que permitan adaptar las reglas sin modificar la arquitectura principal.
+
+**Contingencia:** Revisar la configuración del establecimiento, actualizar las reglas necesarias y validar nuevamente el funcionamiento del módulo.
+
+---
+
+### Consistencia del modelo de datos y reglas de negocio
+
+**Mitigación:** Revisar los cambios del modelo antes de su implementación y validar su impacto sobre las funcionalidades existentes.
+
+**Contingencia:** Actualizar el modelo de datos, revisar la lógica de negocio relacionada y ejecutar pruebas de regresión antes de continuar el desarrollo.
+
+---
+
+### Integración entre Backend, Frontend Web y aplicación Mobile
+
+**Mitigación:** Definir interfaces y contratos de comunicación claros entre los componentes del sistema y realizar integraciones parciales durante el desarrollo.
+
+**Contingencia:** Corregir las incompatibilidades detectadas, sincronizar los componentes involucrados y repetir las pruebas de integración.
+
+---
+
+### Dependencia de servicios externos e infraestructura tecnológica
+
+**Mitigación:** Seleccionar servicios confiables y monitorear periódicamente su disponibilidad durante el desarrollo.
+
+**Contingencia:** Reprogramar temporalmente las funcionalidades afectadas, utilizar alternativas cuando sea posible y reanudar la integración una vez restablecido el servicio.
+
+---
+
+### Cobertura insuficiente de pruebas funcionales e integración
+
+**Mitigación:** Definir casos de prueba representativos para cada funcionalidad implementada y planificar instancias de validación durante cada Sprint.
+
+**Contingencia:** Ampliar el alcance de las pruebas, corregir los defectos identificados y repetir la validación antes de dar por finalizada la funcionalidad.
+
+---
+
+## 10.6 Seguimiento y revisión de riesgos
+
+La gestión de riesgos será un proceso continuo durante el desarrollo del proyecto. En cada Sprint se revisarán los riesgos identificados con el objetivo de verificar si continúan siendo vigentes, evaluar la aparición de nuevos riesgos y determinar la efectividad de las estrategias de mitigación definidas.
+
+Cuando un riesgo se materialice o se produzcan cambios relevantes en el alcance del proyecto, los requerimientos funcionales o las reglas de negocio, se actualizará la planificación correspondiente, la documentación asociada y el backlog del proyecto, garantizando la trazabilidad de los cambios realizados.
+
+Este proceso permitirá mantener el plan de riesgos alineado con la evolución del proyecto y facilitará la toma de decisiones durante las distintas etapas del desarrollo del módulo de reservas.
