@@ -515,3 +515,69 @@ La gestión de riesgos será un proceso continuo durante el desarrollo del proye
 Cuando un riesgo se materialice o se produzcan cambios relevantes en el alcance del proyecto, los requerimientos funcionales o las reglas de negocio, se actualizará la planificación correspondiente, la documentación asociada y el backlog del proyecto, garantizando la trazabilidad de los cambios realizados.
 
 Este proceso permitirá mantener el plan de riesgos alineado con la evolución del proyecto y facilitará la toma de decisiones durante las distintas etapas del desarrollo del módulo de reservas.
+
+# 11. Seguimiento de la ejecución del proyecto
+
+Una vez finalizada la etapa de planificación y aprobado el Plan de Gestión de Riesgos y Contingencias, el proyecto avanzó hacia la ejecución del Sprint 2, correspondiente al desarrollo del módulo de reservas.
+
+Durante esta etapa se realizó el seguimiento periódico de las actividades planificadas mediante el tablero Jira y el control de versiones del proyecto. Como parte de este seguimiento se revisó el avance de las historias de usuario, las tareas asignadas, los requerimientos funcionales y los riesgos identificados durante la planificación, con el objetivo de verificar el cumplimiento de los objetivos definidos para el Sprint.
+
+Como resultado de este proceso de seguimiento se detectó una situación que requirió revisar parte de la planificación inicialmente establecida y aplicar el plan de contingencia previsto para este tipo de escenarios.
+
+## 11.1 Situación detectada durante el desarrollo
+
+Durante el desarrollo del módulo de reservas se identificó que el modelo inicialmente definido contemplaba únicamente la asignación de una mesa por reserva.
+
+Durante las reuniones de seguimiento realizadas con el representante del establecimiento, y a medida que se validaban las funcionalidades implementadas durante el Sprint, surgió la necesidad de ampliar el alcance del proceso de reservas para soportar la asignación dinámica de una o varias mesas según la cantidad de comensales y la disponibilidad existente del establecimiento.
+
+Este refinamiento del requerimiento no modificó el objetivo funcional del módulo de reservas, pero sí requirió revisar la solución técnica inicialmente planificada antes de continuar con el desarrollo de las funcionalidades restantes.
+
+## 11.2 Evaluación del impacto
+
+Una vez detectada la situación, el equipo realizó una evaluación de impacto utilizando los mecanismos definidos durante la etapa de planificación.
+
+En primer lugar, se revisó la matriz de riesgos desarrollada en el capítulo 10, determinando que la situación correspondía al riesgo previamente identificado como **"Cambios en los requerimientos funcionales del módulo de reservas"**, clasificado con **probabilidad alta**, **impacto alto** y **nivel de riesgo alto**.
+
+Posteriormente se analizaron los principales elementos afectados por este cambio.
+
+| Elemento afectado          | Impacto identificado                                                                |
+| -------------------------- | ----------------------------------------------------------------------------------- |
+| Matriz de riesgos          | Se materializó el riesgo "Cambios en los requerimientos funcionales".               |
+| Historias de Usuario       | Se actualizó la HU-012 incorporando la asignación dinámica de mesas.                |
+| Requerimientos funcionales | Se actualizaron los RF-012, RF-013 y RF-016 para contemplar la nueva funcionalidad. |
+| Modelo de datos            | Fue necesario adaptar la estructura para soportar mesas individuales y agrupadas.   |
+| Sprint 2                   | Se requirió actualizar el backlog incorporando nuevas tareas al Sprint.             |
+
+Como resultado de este análisis se concluyó que el cambio afectaba aspectos funcionales, técnicos y de planificación, por lo que resultaba necesario actualizar la planificación antes de continuar con el desarrollo.
+
+## 11.3 Ajuste metodológico aplicado
+
+De acuerdo con el plan de contingencia definido durante la planificación del proyecto, el equipo decidió incorporar una instancia de refinamiento funcional antes de continuar con la implementación de las tareas pendientes.
+
+Durante esta etapa se revisaron los requerimientos funcionales afectados, las reglas de negocio del módulo de reservas, el modelo de datos y la planificación del Sprint.
+
+Como resultado de este proceso se realizaron las siguientes acciones:
+
+* Actualización de los requerimientos funcionales relacionados con el proceso de reservas.
+* Actualización de la historia de usuario afectada por el cambio.
+* Revisión y actualización de las reglas de negocio asociadas a la asignación dinámica de mesas.
+* Actualización del modelo de datos del módulo de reservas.
+* Actualización del backlog del Sprint mediante la incorporación de nuevas tareas.
+* Estimación de las nuevas tareas utilizando Story Points.
+* Actualización de la documentación técnica para mantener la trazabilidad del proyecto.
+
+Estas acciones permitieron incorporar el nuevo requerimiento sin modificar los objetivos generales definidos para el Sprint, manteniendo la trazabilidad entre la planificación inicial, la gestión de riesgos y los cambios realizados durante la ejecución del proyecto.
+
+## 11.4 Actualización de la planificación y continuidad del desarrollo
+
+Como resultado del ajuste metodológico se incorporaron nuevas tareas al backlog del Sprint 2 para implementar los cambios identificados durante el seguimiento del desarrollo.
+
+| ID Jira   | Nueva tarea                                                                                | Épica   |
+| --------- | ------------------------------------------------------------------------------------------ | ------- |
+| SCRUM-126 | Actualizar el modelo de datos del módulo de reservas para soportar mesas agrupadas.        | Backend |
+| SCRUM-127 | Implementar la asignación dinámica de mesas según disponibilidad y cantidad de comensales. | Backend |
+| SCRUM-128 | Actualizar las reglas de negocio y validaciones del proceso de reservas.                   | Backend |
+
+La incorporación de estas tareas permitió reorganizar las prioridades del Sprint sin modificar su duración, manteniendo el cumplimiento de los objetivos originalmente definidos.
+
+Como parte de la ejecución de estas actividades se actualizaron los artefactos correspondientes según la naturaleza de cada tarea, incluyendo la base de datos del proyecto en Azure SQL, la lógica de negocio implementada en el backend, la documentación técnica y el backlog del proyecto, garantizando la trazabilidad entre la planificación inicial, el ajuste metodológico aplicado y la implementación de las nuevas funcionalidades.
